@@ -1,0 +1,2 @@
+# The tickler store lives here (data/tickler.json) — local, sovereign, gitignored.
+# Override the location with the TICKLER_DB environment variable.

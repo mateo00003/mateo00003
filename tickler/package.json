@@ -1,0 +1,19 @@
+{
+  "name": "echo-tickler",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Sovereign, local-first tickler for Echo: one JSON file is the source of truth, wrapped as a zero-dependency MCP server so glass, chat, and cron all read and write the same list.",
+  "license": "MIT",
+  "bin": {
+    "tickler": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "cli": "node src/cli.js",
+    "mcp": "node src/mcp-server.js",
+    "rollup": "node cron/daily-rollup.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

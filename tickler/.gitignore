@@ -1,0 +1,5 @@
+# The tickler store is YOUR data. It stays on your machine, never in git.
+data/*.json
+data/*.tmp
+*.tmp
+node_modules/
