@@ -1,0 +1,23 @@
+name: tickler-ci
+
+# Self-enforcing guardrail: the tickler's own tests run on every push and PR,
+# so the drive-to-green loop has a real signal instead of a human remembering
+# to run `node --test` by hand.
+on:
+  push:
+    branches: [main, "claude/**"]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tickler
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      # Zero runtime dependencies by design — nothing to install, just run.
+      - run: node --test
