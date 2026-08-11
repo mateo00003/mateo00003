@@ -1,0 +1,31 @@
+{
+  "_comment": "ISKCON / Gaudiya Vaishnava reference Ekadashi dates for New Delhi, used to validate the engine. On the two vriddhi days where traditions diverge, the Vaishnava dates are used and independently confirmed: Yogini 2026-07-11 and Devutthana 2026-11-21 (ISKCON Vaishnava Calendar). Padmini 2026-05-27 and Parama 2026-06-11 confirmed against Drik Panchang. The engine (rule=vaishnava) must reproduce these at New Delhi coordinates.",
+  "tradition": "ISKCON / Gaudiya Vaishnava",
+  "location": {"name": "New Delhi", "lat": 28.6139, "lon": 77.2090, "tz": "Asia/Kolkata"},
+  "dates": {
+    "2026-01-14": "Shattila",
+    "2026-01-29": "Jaya",
+    "2026-02-13": "Vijaya",
+    "2026-02-27": "Amalaki",
+    "2026-03-15": "Papamochani",
+    "2026-03-29": "Kamada",
+    "2026-04-13": "Varuthini",
+    "2026-04-27": "Mohini",
+    "2026-05-13": "Apara",
+    "2026-05-27": "Padmini",
+    "2026-06-11": "Parama",
+    "2026-06-25": "Nirjala",
+    "2026-07-11": "Yogini",
+    "2026-07-25": "Devshayani",
+    "2026-08-09": "Kamika",
+    "2026-08-23": "Putrada",
+    "2026-09-07": "Aja",
+    "2026-09-22": "Parivartini",
+    "2026-10-06": "Indira",
+    "2026-10-22": "Papankusha",
+    "2026-11-05": "Rama",
+    "2026-11-21": "Devutthana",
+    "2026-12-04": "Utpanna",
+    "2026-12-20": "Mokshada"
+  }
+}
