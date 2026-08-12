@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Ekadashi (ISKCON / Vaishnava)
 X-WR-CALDESC:Ekadashi fasting days computed for Seattle\, WA using the IS
- KCON / Gaudiya Vaishnava rule. 2026-2027. Generated from astronomical co
+ KCON / Gaudiya Vaishnava rule. 2026-2028. Generated from astronomical co
  mputation (github.com/mateo00003).
 REFRESH-INTERVAL;VALUE=DURATION:P30D
 X-PUBLISHED-TTL:P30D
@@ -1288,6 +1288,658 @@ TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Saphala Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280107@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280108
+SUMMARY:Pausha Putrada Ekadashi
+DESCRIPTION:Pausha Putrada Ekadashi — Pausha Shukla Paksha.\n\nObserved
+  for the well-being and blessings of one's children.\n\nA day of fasting
+  from grains and beans\, devoted to Lord Vishnu. Break the fast (parana)
+  the following morning within the prescribed window.\n\nMore: https://en
+ .wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Pausha Putrada Ekadashi</h3><p><i>Pausha
+  Shukla Paksha</i></p><p>Observed for the well-being and blessings of on
+ e's children.</p><p>A day of fasting from grains and beans\, devoted to 
+ Lord Vishnu. Break the fast (<b>parana</b>) the following morning within
+  the prescribed window.</p><p><a href="https://en.wikipedia.org/wiki/Eka
+ dashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pausha Putrada Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280121@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280121
+DTEND;VALUE=DATE:20280122
+SUMMARY:Shattila Ekadashi
+DESCRIPTION:Shattila Ekadashi — Magha Krishna Paksha.\n\nCharity of ses
+ ame (til) on this day brings great merit and purification.\n\nA day of f
+ asting from grains and beans\, devoted to Lord Vishnu. Break the fast (p
+ arana) the following morning within the prescribed window.\n\nMore: http
+ s://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Shattila Ekadashi</h3><p><i>Magha Krishn
+ a Paksha</i></p><p>Charity of sesame (til) on this day brings great meri
+ t and purification.</p><p>A day of fasting from grains and beans\, devot
+ ed to Lord Vishnu. Break the fast (<b>parana</b>) the following morning 
+ within the prescribed window.</p><p><a href="https://en.wikipedia.org/wi
+ ki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Shattila Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280206@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280206
+DTEND;VALUE=DATE:20280207
+SUMMARY:Jaya Ekadashi
+DESCRIPTION:Jaya Ekadashi — Magha Shukla Paksha.\n\nGrants victory and 
+ freedom from lower births.\n\nA day of fasting from grains and beans\, d
+ evoted to Lord Vishnu. Break the fast (parana) the following morning wit
+ hin the prescribed window.\n\nMore: https://en.wikipedia.org/wiki/Ekadas
+ hi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Jaya Ekadashi</h3><p><i>Magha Shukla Pak
+ sha</i></p><p>Grants victory and freedom from lower births.</p><p>A day 
+ of fasting from grains and beans\, devoted to Lord Vishnu. Break the fas
+ t (<b>parana</b>) the following morning within the prescribed window.</p
+ ><p><a href="https://en.wikipedia.org/wiki/Ekadashi">More about Ekadashi
+  &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Jaya Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280220@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280220
+DTEND;VALUE=DATE:20280221
+SUMMARY:Vijaya Ekadashi
+DESCRIPTION:Vijaya Ekadashi — Phalguna Krishna Paksha.\n\nBestows victo
+ ry over obstacles and adversaries.\n\nA day of fasting from grains and b
+ eans\, devoted to Lord Vishnu. Break the fast (parana) the following mor
+ ning within the prescribed window.\n\nMore: https://en.wikipedia.org/wik
+ i/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Vijaya Ekadashi</h3><p><i>Phalguna Krish
+ na Paksha</i></p><p>Bestows victory over obstacles and adversaries.</p><
+ p>A day of fasting from grains and beans\, devoted to Lord Vishnu. Break
+  the fast (<b>parana</b>) the following morning within the prescribed wi
+ ndow.</p><p><a href="https://en.wikipedia.org/wiki/Ekadashi">More about 
+ Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Vijaya Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280307@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280308
+SUMMARY:Amalaki Ekadashi
+DESCRIPTION:Amalaki Ekadashi — Phalguna Shukla Paksha.\n\nWorship of th
+ e amalaki (myrobalan) tree brings abundant merit and health.\n\nA day of
+  fasting from grains and beans\, devoted to Lord Vishnu. Break the fast 
+ (parana) the following morning within the prescribed window.\n\nMore: ht
+ tps://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Amalaki Ekadashi</h3><p><i>Phalguna Shuk
+ la Paksha</i></p><p>Worship of the amalaki (myrobalan) tree brings abund
+ ant merit and health.</p><p>A day of fasting from grains and beans\, dev
+ oted to Lord Vishnu. Break the fast (<b>parana</b>) the following mornin
+ g within the prescribed window.</p><p><a href="https://en.wikipedia.org/
+ wiki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amalaki Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280321@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280321
+DTEND;VALUE=DATE:20280322
+SUMMARY:Papamochani Ekadashi
+DESCRIPTION:Papamochani Ekadashi — Chaitra Krishna Paksha.\n\nDestroys 
+ accumulated sins and undoes the effects of past wrongdoing.\n\nA day of 
+ fasting from grains and beans\, devoted to Lord Vishnu. Break the fast (
+ parana) the following morning within the prescribed window.\n\nMore: htt
+ ps://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Papamochani Ekadashi</h3><p><i>Chaitra K
+ rishna Paksha</i></p><p>Destroys accumulated sins and undoes the effects
+  of past wrongdoing.</p><p>A day of fasting from grains and beans\, devo
+ ted to Lord Vishnu. Break the fast (<b>parana</b>) the following morning
+  within the prescribed window.</p><p><a href="https://en.wikipedia.org/w
+ iki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Papamochani Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280405@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280405
+DTEND;VALUE=DATE:20280406
+SUMMARY:Kamada Ekadashi
+DESCRIPTION:Kamada Ekadashi — Chaitra Shukla Paksha.\n\nFulfills sincer
+ e desires and frees one from sins and curses.\n\nA day of fasting from g
+ rains and beans\, devoted to Lord Vishnu. Break the fast (parana) the fo
+ llowing morning within the prescribed window.\n\nMore: https://en.wikipe
+ dia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Kamada Ekadashi</h3><p><i>Chaitra Shukla
+  Paksha</i></p><p>Fulfills sincere desires and frees one from sins and c
+ urses.</p><p>A day of fasting from grains and beans\, devoted to Lord Vi
+ shnu. Break the fast (<b>parana</b>) the following morning within the pr
+ escribed window.</p><p><a href="https://en.wikipedia.org/wiki/Ekadashi">
+ More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kamada Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280420@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280420
+DTEND;VALUE=DATE:20280421
+SUMMARY:Varuthini Ekadashi
+DESCRIPTION:Varuthini Ekadashi — Vaishakha Krishna Paksha.\n\nGrants pr
+ otection\, good fortune\, and merit in this life and the next.\n\nA day 
+ of fasting from grains and beans\, devoted to Lord Vishnu. Break the fas
+ t (parana) the following morning within the prescribed window.\n\nMore: 
+ https://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Varuthini Ekadashi</h3><p><i>Vaishakha K
+ rishna Paksha</i></p><p>Grants protection\, good fortune\, and merit in 
+ this life and the next.</p><p>A day of fasting from grains and beans\, d
+ evoted to Lord Vishnu. Break the fast (<b>parana</b>) the following morn
+ ing within the prescribed window.</p><p><a href="https://en.wikipedia.or
+ g/wiki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Varuthini Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280504@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280504
+DTEND;VALUE=DATE:20280505
+SUMMARY:Mohini Ekadashi
+DESCRIPTION:Mohini Ekadashi — Vaishakha Shukla Paksha.\n\nFrees one fro
+ m the bondage of illusion (maya) and from grief.\n\nA day of fasting fro
+ m grains and beans\, devoted to Lord Vishnu. Break the fast (parana) the
+  following morning within the prescribed window.\n\nMore: https://en.wik
+ ipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Mohini Ekadashi</h3><p><i>Vaishakha Shuk
+ la Paksha</i></p><p>Frees one from the bondage of illusion (maya) and fr
+ om grief.</p><p>A day of fasting from grains and beans\, devoted to Lord
+  Vishnu. Break the fast (<b>parana</b>) the following morning within the
+  prescribed window.</p><p><a href="https://en.wikipedia.org/wiki/Ekadash
+ i">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mohini Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280519@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280519
+DTEND;VALUE=DATE:20280520
+SUMMARY:Apara Ekadashi
+DESCRIPTION:Apara Ekadashi — Jyeshtha Krishna Paksha.\n\nBestows vast m
+ erit and dissolves deep-rooted sins.\n\nA day of fasting from grains and
+  beans\, devoted to Lord Vishnu. Break the fast (parana) the following m
+ orning within the prescribed window.\n\nMore: https://en.wikipedia.org/w
+ iki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Apara Ekadashi</h3><p><i>Jyeshtha Krishn
+ a Paksha</i></p><p>Bestows vast merit and dissolves deep-rooted sins.</p
+ ><p>A day of fasting from grains and beans\, devoted to Lord Vishnu. Bre
+ ak the fast (<b>parana</b>) the following morning within the prescribed 
+ window.</p><p><a href="https://en.wikipedia.org/wiki/Ekadashi">More abou
+ t Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Apara Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280603@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280603
+DTEND;VALUE=DATE:20280604
+SUMMARY:Nirjala Ekadashi
+DESCRIPTION:Nirjala Ekadashi — Jyeshtha Shukla Paksha.\n\nThe most aust
+ ere Ekadashi\, kept even without water\; its merit is said to stand for 
+ all the year's Ekadashis.\n\nA day of fasting from grains and beans\, de
+ voted to Lord Vishnu. Break the fast (parana) the following morning with
+ in the prescribed window.\n\nMore: https://en.wikipedia.org/wiki/Ekadash
+ i
+X-ALT-DESC;FMTTYPE=text/html:<h3>Nirjala Ekadashi</h3><p><i>Jyeshtha Shuk
+ la Paksha</i></p><p>The most austere Ekadashi\, kept even without water\
+ ; its merit is said to stand for all the year's Ekadashis.</p><p>A day o
+ f fasting from grains and beans\, devoted to Lord Vishnu. Break the fast
+  (<b>parana</b>) the following morning within the prescribed window.</p>
+ <p><a href="https://en.wikipedia.org/wiki/Ekadashi">More about Ekadashi 
+ &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Nirjala Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280618@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280618
+DTEND;VALUE=DATE:20280619
+SUMMARY:Yogini Ekadashi
+DESCRIPTION:Yogini Ekadashi — Ashadha Krishna Paksha.\n\nAbsolves sins\
+ ; said to equal the merit of feeding thousands of brahmanas.\n\nA day of
+  fasting from grains and beans\, devoted to Lord Vishnu. Break the fast 
+ (parana) the following morning within the prescribed window.\n\nMore: ht
+ tps://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Yogini Ekadashi</h3><p><i>Ashadha Krishn
+ a Paksha</i></p><p>Absolves sins\; said to equal the merit of feeding th
+ ousands of brahmanas.</p><p>A day of fasting from grains and beans\, dev
+ oted to Lord Vishnu. Break the fast (<b>parana</b>) the following mornin
+ g within the prescribed window.</p><p><a href="https://en.wikipedia.org/
+ wiki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Yogini Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280702@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280702
+DTEND;VALUE=DATE:20280703
+SUMMARY:Devshayani Ekadashi
+DESCRIPTION:Devshayani Ekadashi — Ashadha Shukla Paksha.\n\nMarks the s
+ tart of Chaturmas as Lord Vishnu enters his yogic sleep.\n\nA day of fas
+ ting from grains and beans\, devoted to Lord Vishnu. Break the fast (par
+ ana) the following morning within the prescribed window.\n\nMore: https:
+ //en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Devshayani Ekadashi</h3><p><i>Ashadha Sh
+ ukla Paksha</i></p><p>Marks the start of Chaturmas as Lord Vishnu enters
+  his yogic sleep.</p><p>A day of fasting from grains and beans\, devoted
+  to Lord Vishnu. Break the fast (<b>parana</b>) the following morning wi
+ thin the prescribed window.</p><p><a href="https://en.wikipedia.org/wiki
+ /Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Devshayani Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280717@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280717
+DTEND;VALUE=DATE:20280718
+SUMMARY:Kamika Ekadashi
+DESCRIPTION:Kamika Ekadashi — Shravana Krishna Paksha.\n\nWashes away s
+ ins\; worship of Vishnu on this day is especially auspicious.\n\nA day o
+ f fasting from grains and beans\, devoted to Lord Vishnu. Break the fast
+  (parana) the following morning within the prescribed window.\n\nMore: h
+ ttps://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Kamika Ekadashi</h3><p><i>Shravana Krish
+ na Paksha</i></p><p>Washes away sins\; worship of Vishnu on this day is 
+ especially auspicious.</p><p>A day of fasting from grains and beans\, de
+ voted to Lord Vishnu. Break the fast (<b>parana</b>) the following morni
+ ng within the prescribed window.</p><p><a href="https://en.wikipedia.org
+ /wiki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kamika Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280731@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280731
+DTEND;VALUE=DATE:20280801
+SUMMARY:Putrada Ekadashi
+DESCRIPTION:Putrada Ekadashi — Shravana Shukla Paksha.\n\nObserved for 
+ the well-being and blessings of one's children.\n\nA day of fasting from
+  grains and beans\, devoted to Lord Vishnu. Break the fast (parana) the 
+ following morning within the prescribed window.\n\nMore: https://en.wiki
+ pedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Putrada Ekadashi</h3><p><i>Shravana Shuk
+ la Paksha</i></p><p>Observed for the well-being and blessings of one's c
+ hildren.</p><p>A day of fasting from grains and beans\, devoted to Lord 
+ Vishnu. Break the fast (<b>parana</b>) the following morning within the 
+ prescribed window.</p><p><a href="https://en.wikipedia.org/wiki/Ekadashi
+ ">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Putrada Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280816@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280816
+DTEND;VALUE=DATE:20280817
+SUMMARY:Aja Ekadashi
+DESCRIPTION:Aja Ekadashi — Bhadrapada Krishna Paksha.\n\nFrees one from
+  the gravest sins and restores lost fortune.\n\nA day of fasting from gr
+ ains and beans\, devoted to Lord Vishnu. Break the fast (parana) the fol
+ lowing morning within the prescribed window.\n\nMore: https://en.wikiped
+ ia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Aja Ekadashi</h3><p><i>Bhadrapada Krishn
+ a Paksha</i></p><p>Frees one from the gravest sins and restores lost for
+ tune.</p><p>A day of fasting from grains and beans\, devoted to Lord Vis
+ hnu. Break the fast (<b>parana</b>) the following morning within the pre
+ scribed window.</p><p><a href="https://en.wikipedia.org/wiki/Ekadashi">M
+ ore about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Aja Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280830@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280830
+DTEND;VALUE=DATE:20280831
+SUMMARY:Parivartini Ekadashi
+DESCRIPTION:Parivartini Ekadashi — Bhadrapada Shukla Paksha.\n\nLord Vi
+ shnu turns to his other side in cosmic sleep\; also called Vamana Ekadas
+ hi.\n\nA day of fasting from grains and beans\, devoted to Lord Vishnu. 
+ Break the fast (parana) the following morning within the prescribed wind
+ ow.\n\nMore: https://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Parivartini Ekadashi</h3><p><i>Bhadrapad
+ a Shukla Paksha</i></p><p>Lord Vishnu turns to his other side in cosmic 
+ sleep\; also called Vamana Ekadashi.</p><p>A day of fasting from grains 
+ and beans\, devoted to Lord Vishnu. Break the fast (<b>parana</b>) the f
+ ollowing morning within the prescribed window.</p><p><a href="https://en
+ .wikipedia.org/wiki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Parivartini Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280914@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280914
+DTEND;VALUE=DATE:20280915
+SUMMARY:Indira Ekadashi
+DESCRIPTION:Indira Ekadashi — Ashwina Krishna Paksha.\n\nObserved to li
+ berate one's ancestors from lower realms.\n\nA day of fasting from grain
+ s and beans\, devoted to Lord Vishnu. Break the fast (parana) the follow
+ ing morning within the prescribed window.\n\nMore: https://en.wikipedia.
+ org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Indira Ekadashi</h3><p><i>Ashwina Krishn
+ a Paksha</i></p><p>Observed to liberate one's ancestors from lower realm
+ s.</p><p>A day of fasting from grains and beans\, devoted to Lord Vishnu
+ . Break the fast (<b>parana</b>) the following morning within the prescr
+ ibed window.</p><p><a href="https://en.wikipedia.org/wiki/Ekadashi">More
+  about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Indira Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20280928@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20280928
+DTEND;VALUE=DATE:20280929
+SUMMARY:Papankusha Ekadashi
+DESCRIPTION:Papankusha Ekadashi — Ashwina Shukla Paksha.\n\nGrants the 
+ merit of severe penances through simple devotion\, and liberation.\n\nA 
+ day of fasting from grains and beans\, devoted to Lord Vishnu. Break the
+  fast (parana) the following morning within the prescribed window.\n\nMo
+ re: https://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Papankusha Ekadashi</h3><p><i>Ashwina Sh
+ ukla Paksha</i></p><p>Grants the merit of severe penances through simple
+  devotion\, and liberation.</p><p>A day of fasting from grains and beans
+ \, devoted to Lord Vishnu. Break the fast (<b>parana</b>) the following 
+ morning within the prescribed window.</p><p><a href="https://en.wikipedi
+ a.org/wiki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Papankusha Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20281014@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281014
+DTEND;VALUE=DATE:20281015
+SUMMARY:Rama Ekadashi
+DESCRIPTION:Rama Ekadashi — Kartika Krishna Paksha.\n\nDestroys sins an
+ d grants prosperity\; falls just before Diwali.\n\nA day of fasting from
+  grains and beans\, devoted to Lord Vishnu. Break the fast (parana) the 
+ following morning within the prescribed window.\n\nMore: https://en.wiki
+ pedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Rama Ekadashi</h3><p><i>Kartika Krishna 
+ Paksha</i></p><p>Destroys sins and grants prosperity\; falls just before
+  Diwali.</p><p>A day of fasting from grains and beans\, devoted to Lord 
+ Vishnu. Break the fast (<b>parana</b>) the following morning within the 
+ prescribed window.</p><p><a href="https://en.wikipedia.org/wiki/Ekadashi
+ ">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rama Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20281028@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281028
+DTEND;VALUE=DATE:20281029
+SUMMARY:Devutthana Ekadashi
+DESCRIPTION:Devutthana Ekadashi — Kartika Shukla Paksha.\n\nLord Vishnu
+  awakens from cosmic sleep\, ending Chaturmas\; begins the wedding seaso
+ n.\n\nA day of fasting from grains and beans\, devoted to Lord Vishnu. B
+ reak the fast (parana) the following morning within the prescribed windo
+ w.\n\nMore: https://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Devutthana Ekadashi</h3><p><i>Kartika Sh
+ ukla Paksha</i></p><p>Lord Vishnu awakens from cosmic sleep\, ending Cha
+ turmas\; begins the wedding season.</p><p>A day of fasting from grains a
+ nd beans\, devoted to Lord Vishnu. Break the fast (<b>parana</b>) the fo
+ llowing morning within the prescribed window.</p><p><a href="https://en.
+ wikipedia.org/wiki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Devutthana Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20281112@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281112
+DTEND;VALUE=DATE:20281113
+SUMMARY:Utpanna Ekadashi
+DESCRIPTION:Utpanna Ekadashi — Margashirsha Krishna Paksha.\n\nCommemor
+ ates the appearance of goddess Ekadashi\, born to defeat the demon Mura.
+ \n\nA day of fasting from grains and beans\, devoted to Lord Vishnu. Bre
+ ak the fast (parana) the following morning within the prescribed window.
+ \n\nMore: https://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Utpanna Ekadashi</h3><p><i>Margashirsha 
+ Krishna Paksha</i></p><p>Commemorates the appearance of goddess Ekadashi
+ \, born to defeat the demon Mura.</p><p>A day of fasting from grains and
+  beans\, devoted to Lord Vishnu. Break the fast (<b>parana</b>) the foll
+ owing morning within the prescribed window.</p><p><a href="https://en.wi
+ kipedia.org/wiki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Utpanna Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20281127@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281127
+DTEND;VALUE=DATE:20281128
+SUMMARY:Padmini Ekadashi
+DESCRIPTION:Padmini Ekadashi — Adhika Shukla Paksha.\n\nRare leap-month
+  (Adhika / Purushottama) Ekadashi\, exceptionally meritorious.\n\nA day 
+ of fasting from grains and beans\, devoted to Lord Vishnu. Break the fas
+ t (parana) the following morning within the prescribed window.\n\nMore: 
+ https://en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Padmini Ekadashi</h3><p><i>Adhika Shukla
+  Paksha</i></p><p>Rare leap-month (Adhika / Purushottama) Ekadashi\, exc
+ eptionally meritorious.</p><p>A day of fasting from grains and beans\, d
+ evoted to Lord Vishnu. Break the fast (<b>parana</b>) the following morn
+ ing within the prescribed window.</p><p><a href="https://en.wikipedia.or
+ g/wiki/Ekadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Padmini Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20281211@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281211
+DTEND;VALUE=DATE:20281212
+SUMMARY:Parama Ekadashi
+DESCRIPTION:Parama Ekadashi — Adhika Krishna Paksha.\n\nRare leap-month
+  (Adhika) Ekadashi granting supreme spiritual benefit.\n\nA day of fasti
+ ng from grains and beans\, devoted to Lord Vishnu. Break the fast (paran
+ a) the following morning within the prescribed window.\n\nMore: https://
+ en.wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Parama Ekadashi</h3><p><i>Adhika Krishna
+  Paksha</i></p><p>Rare leap-month (Adhika) Ekadashi granting supreme spi
+ ritual benefit.</p><p>A day of fasting from grains and beans\, devoted t
+ o Lord Vishnu. Break the fast (<b>parana</b>) the following morning with
+ in the prescribed window.</p><p><a href="https://en.wikipedia.org/wiki/E
+ kadashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Parama Ekadashi is tomorrow — prepare to fast
+TRIGGER:-PT6H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ekadashi-20281227@mateo00003.github.io
+DTSTAMP:20280101T000000Z
+DTSTART;VALUE=DATE:20281227
+DTEND;VALUE=DATE:20281228
+SUMMARY:Pausha Putrada Ekadashi
+DESCRIPTION:Pausha Putrada Ekadashi — Pausha Shukla Paksha.\n\nObserved
+  for the well-being and blessings of one's children.\n\nA day of fasting
+  from grains and beans\, devoted to Lord Vishnu. Break the fast (parana)
+  the following morning within the prescribed window.\n\nMore: https://en
+ .wikipedia.org/wiki/Ekadashi
+X-ALT-DESC;FMTTYPE=text/html:<h3>Pausha Putrada Ekadashi</h3><p><i>Pausha
+  Shukla Paksha</i></p><p>Observed for the well-being and blessings of on
+ e's children.</p><p>A day of fasting from grains and beans\, devoted to 
+ Lord Vishnu. Break the fast (<b>parana</b>) the following morning within
+  the prescribed window.</p><p><a href="https://en.wikipedia.org/wiki/Eka
+ dashi">More about Ekadashi &raquo\;</a></p>
+URL:https://en.wikipedia.org/wiki/Ekadashi
+CATEGORIES:Ekadashi,Fasting
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pausha Putrada Ekadashi is tomorrow — prepare to fast
 TRIGGER:-PT6H
 END:VALARM
 END:VEVENT
