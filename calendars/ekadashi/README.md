@@ -28,9 +28,6 @@ https://raw.githubusercontent.com/mateo00003/mateo00003/main/calendars/ekadashi/
 Prefer a one-time copy with no auto-refresh? Download `ekadashi.ics` and use
 your app's **Import** instead of Subscribe.
 
-> Until this branch is merged, use the branch URL (swap `main` for
-> `claude/ekadashi-google-calendar-apw4mj`).
-
 ## Regenerate / re-target
 
 ```bash
@@ -45,6 +42,19 @@ python3 ekadashi.py generate \         # write ekadashi.ics
 
 `generate` **validates before it writes** — it refuses to emit a feed from an
 engine that fails the reference check.
+
+## Upkeep runs itself
+
+`.github/workflows/calendar-upkeep.yml` runs monthly (and on any change to the
+engine or the prompt stack). It re-checks the assembled system prompt against
+its layers, revalidates the engine against `ground_truth.json`, and rolls the
+feed's horizon forward to **the current year through +2** — so the calendar
+never quietly runs out of dates.
+
+Output is deterministic (each event's `DTSTAMP` derives from its own year, not
+from "now"), so an unchanged engine regenerates a byte-identical file and the
+workflow stays silent. When something *does* drift, it opens a PR with the
+correction rather than waiting to be asked.
 
 ## Accuracy & trust
 
@@ -71,3 +81,6 @@ This calendar is the first live proof of `docs/system-prompt-stack/`:
   ship unvalidated.
 - **Capability captured** — the engine works for any sunrise-based lunar
   observance, not just this one.
+- **Loop closed in the system, not the human** — the upkeep workflow revalidates
+  and re-horizons on a schedule, and surfaces drift as a PR. Nobody has to
+  remember to look.
