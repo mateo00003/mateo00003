@@ -19,6 +19,13 @@ on:
       - "calendars/ekadashi/**"
       - "docs/system-prompt-stack/**"
       - ".github/workflows/calendar-upkeep.yml"
+  # Run the checks on PRs too, so the workflow proves itself before it merges.
+  # The PR-opening step below is skipped on pull_request events.
+  pull_request:
+    paths:
+      - "calendars/ekadashi/**"
+      - "docs/system-prompt-stack/**"
+      - ".github/workflows/calendar-upkeep.yml"
 
 permissions:
   contents: write
@@ -74,11 +81,14 @@ jobs:
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             git diff --stat -- calendars/ekadashi/ekadashi.ics
+            if [ "${{ github.event_name }}" = "pull_request" ]; then
+              echo "::warning::Committed feed differs from a fresh generation. The scheduled run will open a correction PR."
+            fi
           fi
 
       # --- surface the correction actively, don't wait to be asked ------
       - name: Open or update the correction PR
-        if: steps.drift.outputs.changed == 'true'
+        if: steps.drift.outputs.changed == 'true' && github.event_name != 'pull_request'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
